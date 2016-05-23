@@ -13,6 +13,7 @@
 		857FB9831CF3052400EFABFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857FB9811CF3052400EFABFF /* Main.storyboard */; };
 		857FB9851CF3052400EFABFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857FB9841CF3052400EFABFF /* Assets.xcassets */; };
 		857FB9881CF3052400EFABFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857FB9861CF3052400EFABFF /* LaunchScreen.storyboard */; };
+		857FB9911CF3056C00EFABFF /* UIImage+ImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FB9901CF3056C00EFABFF /* UIImage+ImageOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		857FB9841CF3052400EFABFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		857FB9871CF3052400EFABFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		857FB9891CF3052400EFABFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857FB98F1CF3056C00EFABFF /* UIImage+ImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageOperation.h"; sourceTree = "<group>"; };
+		857FB9901CF3056C00EFABFF /* UIImage+ImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageOperation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				857FB97C1CF3052400EFABFF /* AppDelegate.m */,
 				857FB97E1CF3052400EFABFF /* ViewController.h */,
 				857FB97F1CF3052400EFABFF /* ViewController.m */,
+				857FB98F1CF3056C00EFABFF /* UIImage+ImageOperation.h */,
+				857FB9901CF3056C00EFABFF /* UIImage+ImageOperation.m */,
 				857FB9811CF3052400EFABFF /* Main.storyboard */,
 				857FB9841CF3052400EFABFF /* Assets.xcassets */,
 				857FB9861CF3052400EFABFF /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				857FB9801CF3052400EFABFF /* ViewController.m in Sources */,
 				857FB97D1CF3052400EFABFF /* AppDelegate.m in Sources */,
 				857FB97A1CF3052400EFABFF /* main.m in Sources */,
+				857FB9911CF3056C00EFABFF /* UIImage+ImageOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				857FB98E1CF3052400EFABFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
