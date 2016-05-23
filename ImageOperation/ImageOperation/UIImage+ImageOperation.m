@@ -21,13 +21,6 @@
 
 + (UIImage *)imageClip:(UIImage *)image {
     return [UIImage imageClip:image borderWidth:0 borderColor:nil];
-//    UIGraphicsBeginImageContextWithOptions(image.size, NO, 0);
-//    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
-//    [path addClip];
-//    [image drawAtPoint:CGPointZero];
-//    UIImage *clipImg = UIGraphicsGetImageFromCurrentImageContext();
-//    UIGraphicsEndImageContext();
-//    return clipImg;
 }
 
 + (UIImage *)imageClip:(UIImage *)image borderWidth:(CGFloat)border borderColor:(UIColor *)borderColor {
