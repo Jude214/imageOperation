@@ -50,7 +50,8 @@
 + (UIImage *)captureImageInView:(UIView *)aView {
     UIGraphicsBeginImageContextWithOptions(aView.bounds.size, NO, 0);
     CGContextRef context = UIGraphicsGetCurrentContext();
-    [aView.layer renderInContext:context];
+    [aView.layer renderInContext:context]; //note:layer can only be rendered to context,drawed to context has no effect!
+//    [aView.layer drawInContext:context];
     UIImage *capture = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return capture;
