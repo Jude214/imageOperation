@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  ImageOperation
 //
-//  Created by 廖祖德 on 16/5/23.
+//  Created by QingHong on 16/5/23.
 //  Copyright © 2016年 QingHong. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "DemoNavi.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIWindow *keyWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    keyWindow.backgroundColor = [UIColor whiteColor];
+    [keyWindow makeKeyAndVisible];
+    self.window = keyWindow;
+    ViewController *mainController = [[ViewController alloc] init];
+    self.window.rootViewController = [[DemoNavi alloc] initWithRootViewController:mainController];
     return YES;
 }
 

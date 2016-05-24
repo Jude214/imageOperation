@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  DemoNavi.h
 //  ImageOperation
 //
-//  Created by QingHong on 16/5/23.
+//  Created by 廖祖德 on 16/5/24.
 //  Copyright © 2016年 QingHong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DemoNavi : UINavigationController
 
 @end
-

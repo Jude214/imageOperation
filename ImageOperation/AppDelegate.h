@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  ImageOperation
 //
-//  Created by 廖祖德 on 16/5/23.
+//  Created by QingHong on 16/5/23.
 //  Copyright © 2016年 QingHong. All rights reserved.
 //
 

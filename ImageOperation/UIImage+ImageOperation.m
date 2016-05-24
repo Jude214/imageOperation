@@ -12,6 +12,7 @@
 @implementation UIImage (ImageOperation)
 
 - (UIImage *)addWaterText:(NSString *)waterText textPosition:(CGPoint)position textAttributes:(NSDictionary<NSString *,id> *)attributes {
+    UIGraphicsBeginImageContext(self.size);
     [self drawAtPoint:CGPointZero];
     [waterText drawAtPoint:position withAttributes:attributes];
     UIImage *waterImg = UIGraphicsGetImageFromCurrentImageContext();
